@@ -59,6 +59,15 @@ public class LoginTests extends TestBase {
 
     }
 
+    @Test
+    public void loginUnregisteredUser(){
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm("metyblog@gmail.com", "Dr231010");
+        app.getHelperUser().submitLogin();
+        Assert.assertEquals(app.getHelperUser().getMassage1(), "Login failed");
+    }
+
+
     @AfterMethod
 
     public void postCondition() {
