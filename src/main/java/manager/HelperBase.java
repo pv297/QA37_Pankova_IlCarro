@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class HelperBase {
-
     WebDriver wd;
 
     public HelperBase(WebDriver wd) {
@@ -26,6 +25,14 @@ public class HelperBase {
     public void click(By locator){
         WebElement element = wd.findElement(locator);
         element.click();
+    }
+
+    public void pause(int time){
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public boolean isElementPresent(By locator) {
