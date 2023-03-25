@@ -1,6 +1,8 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,27 +25,35 @@ public class HelperUser extends HelperBase {
         type(By.id("email"), email);
         type(By.xpath("//input[@id='password']"), password);
     }
+    public void fillLoginForm(User user) {
+        type(By.id("email"),user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
 
-    public void submitLogin() {
-        click(By.xpath("//button[@type='submit']"));
+    public void submit() {
+        click(By.cssSelector("button[type='submit']"));
     }
 
 
-    public String getMassage() {
-//
-        //wait - option 1
-        //pause(2000);
-        //option 2
-//        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-//        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container>h2"))));
+    public String getMessage(){
+//        WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
+//        String  text = element.getText();
+//        return text;
 
+        // wait
+
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+
+        //pause(3000);
         return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
     }
-    public String getMassage1() {
+    public String getMessage1() {
         return wd.findElement(By.cssSelector(".dialog-container>h1")).getText();
     }
 
     public void clickOk() {
+        if(isElementPresent(By.xpath("//button[text()='Ok']")))
         click(By.xpath("//button[text()='Ok']"));
     }
 
@@ -58,5 +68,37 @@ public class HelperUser extends HelperBase {
     public boolean isError(By locator) {
 
        return isElementPresent(By.cssSelector(".error"));
+    }
+
+    public String getErrorText() {
+        String text = wd.findElement(By.cssSelector("div.error")).getText();
+        System.out.println(text);
+
+        return text;
+    }
+    public boolean isYallaButtonNotActive() {
+        boolean res =  isElementPresent(By.cssSelector("button[disabled]"));
+        WebElement element = wd.findElement(By.cssSelector("button[type='submit']"));
+        boolean result = element.isEnabled();
+        return res && !result;
+    }
+    ///****************** Registration****************
+    public void openRegistrationForm() {
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"), user.getFirstName());
+        type(By.id("lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
+
+    public void checkPolicy() {
+        // click(By.id("terms-of-use")); 0*0
+        click(By.cssSelector("label[for='terms-of-use']"));
+        // document.querySelector('#terms-of-use').click();
+//        JavascriptExecutor js = (JavascriptExecutor) wd;
+//        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
 }
