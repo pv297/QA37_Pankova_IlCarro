@@ -1,11 +1,12 @@
 package tests;
 
 import models.User;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+
 
 import java.time.Duration;
 import java.util.Collections;
