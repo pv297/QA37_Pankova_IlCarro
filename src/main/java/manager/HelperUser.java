@@ -65,10 +65,10 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//a[text()=' Logout ']"));
     }
 
-    public boolean isError(By locator) {
-
-        return isElementPresent(By.cssSelector(".error"));
-    }
+//    public boolean isError(By locator) {
+//
+//        return isElementPresent(By.cssSelector(".error"));
+//    }
 
     public String getErrorText() {
         String text = wd.findElement(By.cssSelector("div.error")).getText();
@@ -98,10 +98,10 @@ public class HelperUser extends HelperBase {
 
     public void checkPolicy() {
         // click(By.id("terms-of-use")); 0*0
-        click(By.cssSelector("label[for='terms-of-use']"));
-        // document.querySelector('#terms-of-use').click();
-//        JavascriptExecutor js = (JavascriptExecutor) wd;
-//        js.executeScript("document.querySelector('#terms-of-use').click();");
+        //click(By.cssSelector("label[for='terms-of-use']"));
+         //document.querySelector('#terms-of-use').click();
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
     public void checkPolicyXY(){
         Dimension size = wd.manage().window().getSize();
