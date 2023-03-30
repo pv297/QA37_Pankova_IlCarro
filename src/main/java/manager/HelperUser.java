@@ -98,10 +98,10 @@ public class HelperUser extends HelperBase {
 
     public void checkPolicy() {
         // click(By.id("terms-of-use")); 0*0
-        //click(By.cssSelector("label[for='terms-of-use']"));
+        click(By.cssSelector("label[for='terms-of-use']"));
          //document.querySelector('#terms-of-use').click();
-        JavascriptExecutor js = (JavascriptExecutor) wd;
-        js.executeScript("document.querySelector('#terms-of-use').click();");
+//        JavascriptExecutor js = (JavascriptExecutor) wd;
+//        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
     public void checkPolicyXY(){
         Dimension size = wd.manage().window().getSize();
