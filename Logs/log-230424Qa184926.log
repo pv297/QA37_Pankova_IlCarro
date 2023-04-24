@@ -1,0 +1,25 @@
+18:49:31  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:49:35  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+18:49:35  INFO  tests.TestBase - Name of method -->searchAnyPeriodSuccess
+18:49:35  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a.logo
+18:49:35  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a.logo
+18:49:36  INFO  manager.ListenerWD - Location of element(128, 16)
+18:49:37  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 24 ']
+18:49:42  INFO  manager.ListenerWD - Huston we have a problem!
+18:49:42  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (079de20deb2fcec0930164ac971924a1)
+18:49:42  INFO  manager.ListenerWD - ***********************
+18:49:42  INFO  manager.ListenerWD - Method name --->findElement
+18:49:42  INFO  manager.ListenerWD - ***********************
+18:49:42  INFO  manager.ListenerWD - ***********************
+18:49:42  INFO  manager.ListenerWD - ***********************
+18:49:42  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()=' 24 ']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [079de20deb2fcec0930164ac971924a1, findElement {using=xpath, value=//div[text()=' 24 ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53162/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 079de20deb2fcec0930164ac971924a1
+18:49:42  INFO  manager.ListenerWD - ***********************
+18:49:42  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1945.png

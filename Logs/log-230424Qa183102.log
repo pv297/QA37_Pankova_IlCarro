@@ -1,0 +1,106 @@
+18:31:07  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:31:11  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+18:31:11  INFO  tests.TestBase - Name of method -->searchAnyPeriodSuccess
+18:31:11  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:31:11  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:31:11  INFO  manager.ListenerWD - Location of element(128, 268)
+18:31:12  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+18:31:12  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+18:31:13  INFO  manager.ListenerWD - Location of element(128, 311)
+18:31:13  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+18:31:13  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+18:31:13  INFO  manager.ListenerWD - Location of element(128, 361)
+18:31:13  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:13  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:13  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:13  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:14  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:14  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:14  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 25 ']
+18:31:14  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 25 ']
+18:31:14  INFO  manager.ListenerWD - Location of element(138, 275)
+18:31:14  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:14  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:14  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:14  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:14  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:15  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:15  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:15  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:15  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:15  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:16  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:16  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:16  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:16  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:16  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:16  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:16  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:16  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+18:31:16  INFO  manager.ListenerWD - Location of element(378, 30)
+18:31:16  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 5 ']
+18:31:16  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 5 ']
+18:31:16  INFO  manager.ListenerWD - Location of element(218, 155)
+18:31:17  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+18:31:17  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+18:31:17  INFO  manager.ListenerWD - Location of element(128, 396)
+18:31:17  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: a.car-container
+18:31:29  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: a.car-container
+18:31:29  INFO  manager.ListenerWD - list of elements is --->454
+18:31:29  INFO  tests.TestBase - Name of method -->searchCurrentMonthSuccess
+18:31:29  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:31:30  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:31:30  INFO  manager.ListenerWD - Location of element(64, 268)
+18:31:32  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+18:31:33  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+18:31:33  INFO  manager.ListenerWD - Location of element(64, 312)
+18:31:33  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+18:31:38  INFO  manager.ListenerWD - Huston we have a problem!
+18:31:38  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (3429b11db6fdf748abf9b47e88c30bdd)
+18:31:38  INFO  manager.ListenerWD - ***********************
+18:31:38  INFO  manager.ListenerWD - Method name --->findElement
+18:31:38  INFO  manager.ListenerWD - ***********************
+18:31:38  INFO  manager.ListenerWD - ***********************
+18:31:38  INFO  manager.ListenerWD - ***********************
+18:31:38  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3429b11db6fdf748abf9b47e88c30bdd, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52745/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3429b11db6fdf748abf9b47e88c30bdd
+18:31:38  INFO  manager.ListenerWD - ***********************
+18:31:38  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1432.png
+18:31:39  INFO  tests.TestBase - Name of method -->searchCurrentYearSuccess
+18:31:39  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:31:39  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:31:39  INFO  manager.ListenerWD - Location of element(64, 268)
+18:31:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+18:31:47  INFO  manager.ListenerWD - Huston we have a problem!
+18:31:47  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (3429b11db6fdf748abf9b47e88c30bdd)
+18:31:47  INFO  manager.ListenerWD - ***********************
+18:31:47  INFO  manager.ListenerWD - Method name --->findElement
+18:31:47  INFO  manager.ListenerWD - ***********************
+18:31:47  INFO  manager.ListenerWD - ***********************
+18:31:47  INFO  manager.ListenerWD - ***********************
+18:31:47  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.pac-item"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3429b11db6fdf748abf9b47e88c30bdd, findElement {using=css selector, value=div.pac-item}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52745/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3429b11db6fdf748abf9b47e88c30bdd
+18:31:47  INFO  manager.ListenerWD - ***********************
+18:31:47  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1119.png

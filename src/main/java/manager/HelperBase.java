@@ -15,32 +15,34 @@ import java.util.List;
 public class HelperBase {
     WebDriver wd;
     Logger logger = LoggerFactory.getLogger(HelperBase.class);
+
     public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
 
-    public void type (By locator, String text){
+    public void type(By locator, String text) {
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
         clearNew(element);
-        if(text != null) {
+        if (text != null) {
             System.out.println("hello");
             element.sendKeys(text);
         }
     }
-    public void clearNew(WebElement element){
+
+    public void clearNew(WebElement element) {
         element.sendKeys(" ");
         element.sendKeys(Keys.BACK_SPACE);
 
     }
 
-    public void click(By locator){
+    public void click(By locator) {
         WebElement element = wd.findElement(locator);
         element.click();
     }
 
-    public void pause(int time){
+    public void pause(int time) {
         try {
             Thread.sleep(time);
         } catch (InterruptedException e) {
@@ -70,14 +72,27 @@ public class HelperBase {
         //pause(3000);
         return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
     }
+
     public void getScreen(String link) {
         TakesScreenshot takesScreenshot = (TakesScreenshot) wd;
         File tmp = takesScreenshot.getScreenshotAs(OutputType.FILE);
         try {
-            Files.copy(tmp,new File(link));
+            Files.copy(tmp, new File(link));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void clearTextBox(By locator) {
+        WebElement el = wd.findElement(locator);
+        String os = System.getProperty("os.name");
+        System.out.println(os);
+        if (os.startsWith("Win")) {
+            el.sendKeys(Keys.CONTROL, "a");
+        } else {
+            el.sendKeys(Keys.COMMAND, "a");
+        }
+        el.sendKeys((Keys.DELETE));
     }
 
 }
