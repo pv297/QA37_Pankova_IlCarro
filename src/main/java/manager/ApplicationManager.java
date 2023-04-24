@@ -26,7 +26,6 @@ public class ApplicationManager {
         WebDriverListener listener = new ListenerWD();
         wd = new EventFiringDecorator<>(listener).decorate(wd);
 
-
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 

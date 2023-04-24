@@ -1,0 +1,24 @@
+16:38:13  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+16:38:17  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+16:38:17  INFO  tests.TestBase - Name of method -->searchAnyPeriodSuccess
+16:38:17  INFO  manager.ListenerWD - before Find Element --->By.id: city
+16:38:17  INFO  manager.ListenerWD - after Find Element --->By.id: city
+16:38:17  INFO  manager.ListenerWD - Location of element(128, 268)
+16:38:18  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+16:38:18  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+16:38:18  INFO  manager.ListenerWD - Location of element(128, 311)
+16:38:19  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+16:38:19  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+16:38:19  INFO  manager.ListenerWD - Location of element(128, 361)
+16:38:19  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 25 ']
+16:38:19  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 25 ']
+16:38:19  INFO  manager.ListenerWD - Location of element(218, 275)
+16:38:19  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 28 ']
+16:38:19  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 28 ']
+16:38:20  INFO  manager.ListenerWD - Location of element(338, 275)
+16:38:20  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+16:38:20  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+16:38:20  INFO  manager.ListenerWD - Location of element(128, 396)
+16:38:20  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: a.car-container
+16:38:27  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: a.car-container
+16:38:27  INFO  manager.ListenerWD - list of elements is --->454

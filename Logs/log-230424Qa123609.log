@@ -1,5 +1,0 @@
-12:36:13  INFO  manager.ApplicationManager - All tests run in Chrome Browser
-12:36:18  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
-12:36:18  INFO  tests.TestBase - Name of method -->loginSuccess
-12:36:23  INFO  tests.TestBase - Test start with test data --->/nemail : 'marym@gmail.com' & password : 'Mary2023@'
-12:36:26  INFO  tests.TestBase - Assert check message 'Logged in success' present

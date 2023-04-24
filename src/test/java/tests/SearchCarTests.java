@@ -18,11 +18,11 @@ public class SearchCarTests extends TestBase {
   Assert.assertTrue(app.getHelperCar().isListOfCarsAppeared());
  }
 
-// @Test
-// public void searchAnyPeriodSuccess() {
-////  app.getHelperCar().searchCurrentYear("Tel Aviv, Israel","4/25/2023","4/28/2023");
-//  app.getHelperCar().submit();
-//  Assert.assertTrue(app.getHelperCar().isListOfCarsAppeared());
-// }
+ @Test
+ public void searchAnyPeriodSuccess() {
+  app.getHelperCar().searchCurrentPeriod("Tel Aviv, Israel","6/25/2023","3/28/2024");
+  app.getHelperCar().submit();
+  Assert.assertTrue(app.getHelperCar().isListOfCarsAppeared());
+ }
  }
 

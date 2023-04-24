@@ -1,0 +1,75 @@
+16:48:20  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+16:48:25  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+16:48:25  INFO  tests.TestBase - Name of method -->searchAnyPeriodSuccess
+16:48:25  INFO  manager.ListenerWD - before Find Element --->By.id: city
+16:48:25  INFO  manager.ListenerWD - after Find Element --->By.id: city
+16:48:25  INFO  manager.ListenerWD - Location of element(128, 268)
+16:48:25  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+16:48:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+16:48:26  INFO  manager.ListenerWD - Location of element(128, 311)
+16:48:26  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+16:48:26  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+16:48:26  INFO  manager.ListenerWD - Location of element(128, 361)
+16:48:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:26  INFO  manager.ListenerWD - Location of element(378, 30)
+16:48:26  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:26  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:26  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:26  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 25 ']
+16:48:26  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 25 ']
+16:48:27  INFO  manager.ListenerWD - Location of element(138, 274)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:27  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:27  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:28  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:28  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:28  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:28  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:28  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+16:48:28  INFO  manager.ListenerWD - Location of element(378, 29)
+16:48:28  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 28 ']
+16:48:28  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 28 ']
+16:48:28  INFO  manager.ListenerWD - Location of element(138, 314)
+16:48:28  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+16:48:28  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+16:48:28  INFO  manager.ListenerWD - Location of element(128, 415)
+16:48:29  INFO  manager.ListenerWD - Huston we have a problem!
+16:48:29  INFO  manager.ListenerWD - Object target --->[[ChromeDriver: chrome on WINDOWS (84dc8df1bfce13c414713c5c73b06959)] -> css selector: button[type='submit']]
+16:48:29  INFO  manager.ListenerWD - ***********************
+16:48:29  INFO  manager.ListenerWD - Method name --->click
+16:48:29  INFO  manager.ListenerWD - ***********************
+16:48:29  INFO  manager.ListenerWD - ***********************
+16:48:29  INFO  manager.ListenerWD - ***********************
+16:48:29  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-cfw-c106="" type="submit" disabled="">...</button> is not clickable at point (183, 431). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84dc8df1bfce13c414713c5c73b06959, clickElement {id=9c1c033d-5cac-449a-afad-bca6ded61f7d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51644/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (84dc8df1bfce13c414713c5c73b06959)] -> css selector: button[type='submit']]
+Session ID: 84dc8df1bfce13c414713c5c73b06959
+16:48:29  INFO  manager.ListenerWD - ***********************
+16:48:29  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1847.png

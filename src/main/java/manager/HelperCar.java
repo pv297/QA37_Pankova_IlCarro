@@ -92,12 +92,15 @@ public class HelperCar extends HelperBase {
         //System.out.println(from);
         //System.out.println(from1);
 
+
+        //from
         int diffMonth = from.getMonthValue() - month; //now.getMonthValue()
         if (diffMonth > 0) {
             clickNextMonthBtn(diffMonth);
         }
         click(By.xpath("//div[text()=' " + from.getDayOfMonth() + " ']"));
 
+        // to
         diffMonth = to.getMonthValue() - from.getMonthValue();
         if(diffMonth > 0) {
             clickNextMonthBtn(diffMonth);
@@ -110,5 +113,37 @@ public class HelperCar extends HelperBase {
            click(By.cssSelector("button[aria-label='Next month'"));
 
         }
+    }
+    public void searchCurrentPeriod(String city, String dateFrom, String dateTo) {
+        typeCity(city);
+        click(By.id("dates"));
+        LocalDate now = LocalDate.now();
+        System.out.println(now); //2023-04-20
+        int year = now.getYear();
+        int month = now.getMonthValue();
+        //int day = now.getDayOfMonth();
+
+        LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
+
+        int diffYear = from.getYear() - year;
+        if (diffYear > 0) {
+            clickNextMonthBtn(12 - month + from.getMonthValue());
+        } else  {
+        clickNextMonthBtn(from.getMonthValue() - month);}
+
+        click(By.xpath("//div[text()=' " + from.getDayOfMonth() + " ']"));
+         pause(5000);
+
+        diffYear = to.getYear() - from.getYear();
+        if (diffYear > 0) {
+            clickNextMonthBtn(12 - from.getMonthValue() + to.getMonthValue());
+
+        } else {
+            clickNextMonthBtn(to.getMonthValue() - from.getMonthValue());
+        }
+
+        click(By.xpath("//div[text()=' " + to.getDayOfMonth() + " ']"));
+
     }
 }
