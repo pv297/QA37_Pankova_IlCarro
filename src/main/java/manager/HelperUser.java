@@ -29,24 +29,6 @@ public class HelperUser extends HelperBase {
         type(By.id("password"), user.getPassword());
     }
 
-    public void submit() {
-        click(By.cssSelector("button[type='submit']"));
-    }
-
-
-    public String getMessage() {
-//        WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
-//        String  text = element.getText();
-//        return text;
-
-        // wait
-
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
-
-        //pause(3000);
-        return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
-    }
 
     public String getMessage1() {
         return wd.findElement(By.cssSelector(".dialog-container>h1")).getText();
@@ -98,12 +80,15 @@ public class HelperUser extends HelperBase {
 
     public void checkPolicy() {
         // click(By.id("terms-of-use")); 0*0
-        click(By.cssSelector("label[for='terms-of-use']"));
-         //document.querySelector('#terms-of-use').click();
+        if (!wd.findElement(By.id("terms-of-use")).isSelected()) {
+            click(By.cssSelector("label[for='terms-of-use']"));
+        }
+        //document.querySelector('#terms-of-use').click();
 //        JavascriptExecutor js = (JavascriptExecutor) wd;
 //        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
-    public void checkPolicyXY(){
+
+    public void checkPolicyXY() {
         Dimension size = wd.manage().window().getSize();
         System.out.println("Wight screen -->" + size.getWidth());
 
@@ -112,10 +97,17 @@ public class HelperUser extends HelperBase {
 
         Rectangle rect = label.getRect();
         int w = rect.getWidth();
-        int xOffSet = -w/2;
+        int xOffSet = -w / 2;
         Actions actions = new Actions(wd);
-        actions.moveToElement(label,xOffSet,0).click().release();
+        actions.moveToElement(label, xOffSet, 0).click().release().perform();
 
+    }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        clickOk();
     }
 }
 

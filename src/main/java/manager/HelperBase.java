@@ -1,14 +1,20 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.time.Duration;
 import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
-
+    Logger logger = LoggerFactory.getLogger(HelperBase.class);
     public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
@@ -17,9 +23,16 @@ public class HelperBase {
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
+        clearNew(element);
         if(text != null) {
+            System.out.println("hello");
             element.sendKeys(text);
         }
+    }
+    public void clearNew(WebElement element){
+        element.sendKeys(" ");
+        element.sendKeys(Keys.BACK_SPACE);
+
     }
 
     public void click(By locator){
@@ -39,4 +52,23 @@ public class HelperBase {
         List<WebElement> list = wd.findElements(locator);
         return list.size() > 0;
     }
+
+    public void submit() {
+        click(By.cssSelector("button[type='submit']"));
+    }
+
+    public String getMessage() {
+//        WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
+//        String  text = element.getText();
+//        return text;
+
+        // wait
+
+        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+
+        //pause(3000);
+        return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
+    }
+
 }

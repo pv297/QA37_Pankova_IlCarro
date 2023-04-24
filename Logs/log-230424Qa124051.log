@@ -1,0 +1,5 @@
+12:40:55  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+12:40:59  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+12:40:59  INFO  tests.TestBase - Name of method -->registrationSuccess
+12:41:04  INFO  tests.TestBase - Test start with test data --->User{firstName='Mary', lastName='Merry', email='mary491@gmail.com', password='Mary12345$'}
+12:41:07  INFO  tests.TestBase - Assert check message 'You are logged in success' present
