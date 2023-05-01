@@ -1,0 +1,25 @@
+18:13:48  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:13:56  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+18:13:57  INFO  tests.TestBase - Name of method -->negativeSearch
+18:13:57  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a.logo
+18:13:57  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a.logo
+18:13:57  INFO  manager.ListenerWD - Location of element(128, 16)
+18:13:57  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:13:58  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:13:58  INFO  manager.ListenerWD - Location of element(128, 272)
+18:13:58  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:13:58  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:13:58  INFO  manager.ListenerWD - Location of element(128, 272)
+18:13:58  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+18:13:59  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+18:13:59  INFO  manager.ListenerWD - Location of element(128, 316)
+18:13:59  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+18:14:00  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+18:14:00  INFO  manager.ListenerWD - Location of element(128, 365)
+18:14:00  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: button[disabled]
+18:14:00  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: button[disabled]
+18:14:00  INFO  manager.ListenerWD - list of elements is --->1
+18:14:00  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+18:14:00  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+18:14:00  INFO  manager.ListenerWD - Location of element(128, 402)
+18:14:00  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.ng-star-inserted

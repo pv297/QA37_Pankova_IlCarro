@@ -1,0 +1,60 @@
+17:51:34  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+17:51:38  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+17:51:38  INFO  tests.TestBase - Name of method -->negativeSearch
+17:51:38  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a.logo
+17:51:38  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a.logo
+17:51:38  INFO  manager.ListenerWD - Location of element(128, 16)
+17:51:39  INFO  manager.ListenerWD - before Find Element --->By.id: city
+17:51:39  INFO  manager.ListenerWD - after Find Element --->By.id: city
+17:51:39  INFO  manager.ListenerWD - Location of element(128, 268)
+17:51:39  INFO  manager.ListenerWD - before Find Element --->By.id: city
+17:51:39  INFO  manager.ListenerWD - after Find Element --->By.id: city
+17:51:39  INFO  manager.ListenerWD - Location of element(128, 268)
+17:51:40  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+17:51:40  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+17:51:40  INFO  manager.ListenerWD - Location of element(128, 311)
+17:51:40  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+17:51:40  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+17:51:40  INFO  manager.ListenerWD - Location of element(128, 361)
+17:51:41  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+17:51:41  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+17:51:41  INFO  manager.ListenerWD - Location of element(128, 341)
+17:51:41  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 10 ']
+17:51:41  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 10 ']
+17:51:41  INFO  manager.ListenerWD - Location of element(178, 195)
+17:51:41  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:41  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:41  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:41  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:41  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:42  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:42  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:43  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:43  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[aria-label='Next month'
+17:51:43  INFO  manager.ListenerWD - Location of element(378, 30)
+17:51:43  INFO  manager.ListenerWD - before Find Element --->By.xpath: //div[text()=' 10 ']
+17:51:43  INFO  manager.ListenerWD - after Find Element --->By.xpath: //div[text()=' 10 ']
+17:51:43  INFO  manager.ListenerWD - Location of element(258, 195)
+17:51:43  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: button[disabled]
+17:51:43  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: button[disabled]
+17:51:43  INFO  manager.ListenerWD - list of elements is --->1
+17:51:43  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+17:51:43  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+17:51:43  INFO  manager.ListenerWD - Location of element(128, 415)

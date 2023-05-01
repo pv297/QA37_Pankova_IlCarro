@@ -1,0 +1,72 @@
+08:33:38  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+08:33:41  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+08:33:41  INFO  tests.TestBase - Name of method -->loginSuccess
+08:33:41  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //a[text()=' Logout ']
+08:33:46  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //a[text()=' Logout ']
+08:33:46  INFO  manager.ListenerWD - list of elements is --->0
+08:33:46  INFO  tests.TestBase - Test start with test data --->/nemail marym@gmail.com & password Mary2023@
+08:33:46  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+08:33:46  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+08:33:46  INFO  manager.ListenerWD - Location of element(1057, 24)
+08:33:46  INFO  manager.ListenerWD - before Find Element --->By.id: email
+08:33:46  INFO  manager.ListenerWD - after Find Element --->By.id: email
+08:33:46  INFO  manager.ListenerWD - Location of element(889, 254)
+08:33:47  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[@id='password']
+08:33:47  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[@id='password']
+08:33:47  INFO  manager.ListenerWD - Location of element(889, 327)
+08:33:47  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+08:33:47  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+08:33:47  INFO  manager.ListenerWD - Location of element(889, 396)
+08:33:47  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .dialog-container
+08:33:48  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .dialog-container
+08:33:48  INFO  manager.ListenerWD - Location of element(480, 254)
+08:33:48  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .dialog-container>h2
+08:33:48  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .dialog-container>h2
+08:33:48  INFO  manager.ListenerWD - Location of element(457, 290)
+08:33:48  INFO  tests.TestBase - Assert check message 'Logged in success' present
+08:33:48  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Ok']
+08:33:48  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Ok']
+08:33:48  INFO  manager.ListenerWD - list of elements is --->1
+08:33:48  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Ok']
+08:33:48  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Ok']
+08:33:48  INFO  manager.ListenerWD - Location of element(665, 343)
+08:33:49  INFO  tests.TestBase - Name of method -->loginSuccess
+08:33:49  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //a[text()=' Logout ']
+08:33:49  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //a[text()=' Logout ']
+08:33:49  INFO  manager.ListenerWD - list of elements is --->1
+08:33:49  INFO  manager.ListenerWD - before Find Element --->By.xpath: //a[text()=' Logout ']
+08:33:49  INFO  manager.ListenerWD - after Find Element --->By.xpath: //a[text()=' Logout ']
+08:33:49  INFO  manager.ListenerWD - Location of element(869, 24)
+08:33:49  INFO  tests.TestBase - Before method finish logout
+08:33:49  INFO  tests.TestBase - Test start with test data --->/nemail marym@gmail.com & password Mary2023@
+08:33:49  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+08:33:49  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+08:33:49  INFO  manager.ListenerWD - Location of element(1057, 24)
+08:33:49  INFO  manager.ListenerWD - before Find Element --->By.id: email
+08:33:49  INFO  manager.ListenerWD - after Find Element --->By.id: email
+08:33:49  INFO  manager.ListenerWD - Location of element(889, 254)
+08:33:49  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[@id='password']
+08:33:49  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[@id='password']
+08:33:49  INFO  manager.ListenerWD - Location of element(889, 327)
+08:33:49  INFO  manager.ListenerWD - Huston we have a problem!
+08:33:49  INFO  manager.ListenerWD - Object target --->[[ChromeDriver: chrome on WINDOWS (2221e5e531b63b2cbc77cbbebdf244d1)] -> xpath: //input[@id='password']]
+08:33:49  INFO  manager.ListenerWD - ***********************
+08:33:49  INFO  manager.ListenerWD - Method name --->sendKeys
+08:33:49  INFO  manager.ListenerWD - ***********************
+08:33:49  INFO  manager.ListenerWD - ***********************
+08:33:49  INFO  manager.ListenerWD - ***********************
+08:33:49  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2221e5e531b63b2cbc77cbbebdf244d1, sendKeysToElement {id=98188622-4889-45c9-956c-d16b1edb6a20, value=[Ljava.lang.CharSequence;@68b734a8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57987/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2221e5e531b63b2cbc77cbbebdf244d1)] -> xpath: //input[@id='password']]
+Session ID: 2221e5e531b63b2cbc77cbbebdf244d1
+08:33:49  INFO  manager.ListenerWD - ***********************
+08:33:49  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1256.png
+08:33:49  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Ok']
+08:33:54  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Ok']
+08:33:54  INFO  manager.ListenerWD - list of elements is --->0

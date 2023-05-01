@@ -1,0 +1,30 @@
+15:56:58  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+15:57:03  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+15:57:03  INFO  tests.TestBase - Name of method -->negativeSearch
+15:57:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a.logo
+15:57:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a.logo
+15:57:03  INFO  manager.ListenerWD - Location of element(128, 16)
+15:57:04  INFO  manager.ListenerWD - before Find Element --->By.id: city
+15:57:04  INFO  manager.ListenerWD - after Find Element --->By.id: city
+15:57:04  INFO  manager.ListenerWD - Location of element(128, 268)
+15:57:05  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+15:57:05  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+15:57:05  INFO  manager.ListenerWD - Location of element(128, 311)
+15:57:05  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+15:57:06  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+15:57:06  INFO  manager.ListenerWD - Location of element(128, 361)
+15:57:06  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+15:57:06  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+15:57:06  INFO  manager.ListenerWD - Location of element(128, 341)
+15:57:07  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+15:57:07  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+15:57:07  INFO  manager.ListenerWD - Location of element(0, 0)
+15:57:07  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: button[disabled]
+15:57:07  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: button[disabled]
+15:57:07  INFO  manager.ListenerWD - list of elements is --->2
+15:57:07  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+15:57:07  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+15:57:07  INFO  manager.ListenerWD - Location of element(128, 415)
+15:57:07  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.ng-star-inserted
+15:57:07  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.ng-star-inserted
+15:57:07  INFO  manager.ListenerWD - Location of element(128, 384)

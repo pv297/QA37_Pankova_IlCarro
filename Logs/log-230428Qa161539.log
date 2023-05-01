@@ -1,0 +1,90 @@
+16:15:45  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+16:15:49  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+16:15:49  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //a[text()=' Logout ']
+16:15:54  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //a[text()=' Logout ']
+16:15:54  INFO  manager.ListenerWD - list of elements is --->0
+16:15:54  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+16:15:54  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+16:15:54  INFO  manager.ListenerWD - Location of element(1057, 24)
+16:15:54  INFO  manager.ListenerWD - before Find Element --->By.id: email
+16:15:55  INFO  manager.ListenerWD - after Find Element --->By.id: email
+16:15:55  INFO  manager.ListenerWD - Location of element(889, 254)
+16:15:55  INFO  manager.ListenerWD - before Find Element --->By.id: password
+16:15:55  INFO  manager.ListenerWD - after Find Element --->By.id: password
+16:15:55  INFO  manager.ListenerWD - Location of element(889, 327)
+16:15:55  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+16:15:55  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+16:15:55  INFO  manager.ListenerWD - Location of element(889, 396)
+16:15:55  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Ok']
+16:15:57  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Ok']
+16:15:57  INFO  manager.ListenerWD - list of elements is --->1
+16:15:57  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Ok']
+16:15:57  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Ok']
+16:15:57  INFO  manager.ListenerWD - Location of element(665, 343)
+16:15:57  INFO  tests.TestBase - Logout complete
+16:15:57  INFO  tests.TestBase - Name of method -->addNewCarSuccess
+16:15:57  INFO  tests.TestBase - Test start with test data --->Car(location=Tel Aviv, Israel, manufacture=Volvo, model=100, year=2021, fuel=Gas, seats=4, carClass=C, carRegNumber=678-901-201, price=55.0, about=null)
+16:15:57  INFO  manager.ListenerWD - before Find Element --->By.xpath: //a[text()=' Let the car work ']
+16:15:58  INFO  manager.ListenerWD - after Find Element --->By.xpath: //a[text()=' Let the car work ']
+16:15:58  INFO  manager.ListenerWD - Location of element(523, 24)
+16:15:58  INFO  manager.ListenerWD - before Find Element --->By.id: pickUpPlace
+16:15:58  INFO  manager.ListenerWD - after Find Element --->By.id: pickUpPlace
+16:15:58  INFO  manager.ListenerWD - Location of element(115, 303)
+16:15:58  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+16:15:58  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+16:15:58  INFO  manager.ListenerWD - Location of element(115, 346)
+16:15:59  INFO  manager.ListenerWD - before Find Element --->By.id: make
+16:15:59  INFO  manager.ListenerWD - after Find Element --->By.id: make
+16:15:59  INFO  manager.ListenerWD - Location of element(115, 479)
+16:15:59  INFO  manager.ListenerWD - before Find Element --->By.id: model
+16:15:59  INFO  manager.ListenerWD - after Find Element --->By.id: model
+16:15:59  INFO  manager.ListenerWD - Location of element(115, 559)
+16:15:59  INFO  manager.ListenerWD - before Find Element --->By.xpath: //input[@id='year']
+16:15:59  INFO  manager.ListenerWD - after Find Element --->By.xpath: //input[@id='year']
+16:15:59  INFO  manager.ListenerWD - Location of element(115, 632)
+16:16:00  INFO  manager.ListenerWD - before Find Element --->By.id: fuel
+16:16:00  INFO  manager.ListenerWD - after Find Element --->By.id: fuel
+16:16:00  INFO  manager.ListenerWD - Location of element(115, 706)
+16:16:00  INFO  manager.ListenerWD - before Find Element --->By.id: seats
+16:16:00  INFO  manager.ListenerWD - after Find Element --->By.id: seats
+16:16:00  INFO  manager.ListenerWD - Location of element(115, 781)
+16:16:00  INFO  manager.ListenerWD - before Find Element --->By.id: class
+16:16:00  INFO  manager.ListenerWD - after Find Element --->By.id: class
+16:16:00  INFO  manager.ListenerWD - Location of element(115, 855)
+16:16:01  INFO  manager.ListenerWD - before Find Element --->By.id: serialNumber
+16:16:01  INFO  manager.ListenerWD - after Find Element --->By.id: serialNumber
+16:16:01  INFO  manager.ListenerWD - Location of element(115, 928)
+16:16:02  INFO  manager.ListenerWD - before Find Element --->By.id: price
+16:16:02  INFO  manager.ListenerWD - after Find Element --->By.id: price
+16:16:02  INFO  manager.ListenerWD - Location of element(115, 1002)
+16:16:03  INFO  manager.ListenerWD - before Find Element --->By.id: about
+16:16:03  INFO  manager.ListenerWD - after Find Element --->By.id: about
+16:16:03  INFO  manager.ListenerWD - Location of element(115, 1102)
+16:16:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+16:16:03  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+16:16:03  INFO  manager.ListenerWD - Location of element(115, 1468)
+16:16:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .dialog-container
+16:16:04  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .dialog-container
+16:16:04  INFO  manager.ListenerWD - Location of element(472, 242)
+16:16:04  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .dialog-container>h2
+16:16:04  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .dialog-container>h2
+16:16:04  INFO  manager.ListenerWD - Location of element(455, 279)
+16:16:04  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Search cars']
+16:16:10  INFO  manager.ListenerWD - Huston we have a problem!
+16:16:10  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (b1908f78b4ca6472b3a8db5b5679398b)
+16:16:10  INFO  manager.ListenerWD - ***********************
+16:16:10  INFO  manager.ListenerWD - Method name --->findElement
+16:16:10  INFO  manager.ListenerWD - ***********************
+16:16:10  INFO  manager.ListenerWD - ***********************
+16:16:10  INFO  manager.ListenerWD - ***********************
+16:16:10  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b1908f78b4ca6472b3a8db5b5679398b, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59169/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1908f78b4ca6472b3a8db5b5679398b
+16:16:10  INFO  manager.ListenerWD - ***********************
+16:16:10  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1713.png

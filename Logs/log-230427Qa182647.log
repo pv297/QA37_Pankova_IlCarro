@@ -1,0 +1,33 @@
+18:26:55  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:27:00  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+18:27:01  INFO  tests.TestBase - Name of method -->negativeSearch
+18:27:01  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a.logo
+18:27:01  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a.logo
+18:27:01  INFO  manager.ListenerWD - Location of element(128, 16)
+18:27:02  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:27:02  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:27:02  INFO  manager.ListenerWD - Location of element(128, 268)
+18:27:02  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:27:02  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:27:02  INFO  manager.ListenerWD - Location of element(128, 268)
+18:27:03  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+18:27:04  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+18:27:04  INFO  manager.ListenerWD - Location of element(128, 311)
+18:27:04  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+18:27:04  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+18:27:04  INFO  manager.ListenerWD - Location of element(128, 361)
+18:27:04  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+18:27:04  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+18:27:04  INFO  manager.ListenerWD - Location of element(128, 341)
+18:27:05  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+18:27:05  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+18:27:05  INFO  manager.ListenerWD - Location of element(0, 0)
+18:27:05  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: button[disabled]
+18:27:06  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: button[disabled]
+18:27:06  INFO  manager.ListenerWD - list of elements is --->2
+18:27:06  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+18:27:06  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+18:27:06  INFO  manager.ListenerWD - Location of element(128, 415)
+18:27:06  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.ng-star-inserted
+18:27:06  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.ng-star-inserted
+18:27:06  INFO  manager.ListenerWD - Location of element(128, 384)

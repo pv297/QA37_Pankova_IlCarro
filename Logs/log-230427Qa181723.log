@@ -1,0 +1,46 @@
+18:17:31  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:17:35  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+18:17:35  INFO  tests.TestBase - Name of method -->negativeSearch
+18:17:35  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a.logo
+18:17:35  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a.logo
+18:17:35  INFO  manager.ListenerWD - Location of element(128, 16)
+18:17:36  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:17:36  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:17:37  INFO  manager.ListenerWD - Location of element(128, 268)
+18:17:37  INFO  manager.ListenerWD - before Find Element --->By.id: city
+18:17:37  INFO  manager.ListenerWD - after Find Element --->By.id: city
+18:17:37  INFO  manager.ListenerWD - Location of element(128, 268)
+18:17:37  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.pac-item
+18:17:38  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: div.pac-item
+18:17:38  INFO  manager.ListenerWD - Location of element(128, 311)
+18:17:38  INFO  manager.ListenerWD - before Find Element --->By.id: dates
+18:17:38  INFO  manager.ListenerWD - after Find Element --->By.id: dates
+18:17:38  INFO  manager.ListenerWD - Location of element(128, 361)
+18:17:38  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+18:17:38  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+18:17:38  INFO  manager.ListenerWD - Location of element(128, 396)
+18:17:38  INFO  manager.ListenerWD - before Find Elements --->By.cssSelector: button[disabled]
+18:17:38  INFO  manager.ListenerWD - after Find Elements --->By.cssSelector: button[disabled]
+18:17:38  INFO  manager.ListenerWD - list of elements is --->1
+18:17:38  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+18:17:39  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+18:17:39  INFO  manager.ListenerWD - Location of element(128, 396)
+18:17:39  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: div.ng-star-inserted
+18:17:44  INFO  manager.ListenerWD - Huston we have a problem!
+18:17:44  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (484705a64aa32364e0b418f5192f6608)
+18:17:44  INFO  manager.ListenerWD - ***********************
+18:17:44  INFO  manager.ListenerWD - Method name --->findElement
+18:17:44  INFO  manager.ListenerWD - ***********************
+18:17:44  INFO  manager.ListenerWD - ***********************
+18:17:44  INFO  manager.ListenerWD - ***********************
+18:17:44  INFO  manager.ListenerWD - InvocationTargetException & getTargetException ---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.ng-star-inserted"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [484705a64aa32364e0b418f5192f6608, findElement {using=css selector, value=div.ng-star-inserted}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\pv297\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63659/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 484705a64aa32364e0b418f5192f6608
+18:17:44  INFO  manager.ListenerWD - ***********************
+18:17:44  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen_1977.png

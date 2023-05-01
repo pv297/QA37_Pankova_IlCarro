@@ -1,0 +1,32 @@
+08:05:07  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+08:05:12  INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+08:05:12  INFO  tests.TestBase - Name of method -->loginSuccess1
+08:05:12  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //a[text()=' Logout ']
+08:05:17  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //a[text()=' Logout ']
+08:05:17  INFO  manager.ListenerWD - list of elements is --->0
+08:05:17  INFO  tests.TestBase - Test start with test data --->User{firstName='null', lastName='null', email='marym@gmail.com', password='Mary2023@'}
+08:05:17  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+08:05:17  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: a[ng-reflect-router-link='login']
+08:05:17  INFO  manager.ListenerWD - Location of element(1057, 24)
+08:05:17  INFO  manager.ListenerWD - before Find Element --->By.id: email
+08:05:17  INFO  manager.ListenerWD - after Find Element --->By.id: email
+08:05:17  INFO  manager.ListenerWD - Location of element(889, 254)
+08:05:18  INFO  manager.ListenerWD - before Find Element --->By.id: password
+08:05:18  INFO  manager.ListenerWD - after Find Element --->By.id: password
+08:05:18  INFO  manager.ListenerWD - Location of element(889, 327)
+08:05:18  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: button[type='submit']
+08:05:18  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: button[type='submit']
+08:05:18  INFO  manager.ListenerWD - Location of element(889, 396)
+08:05:19  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .dialog-container
+08:05:20  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .dialog-container
+08:05:20  INFO  manager.ListenerWD - Location of element(466, 250)
+08:05:20  INFO  manager.ListenerWD - before Find Element --->By.cssSelector: .dialog-container>h2
+08:05:20  INFO  manager.ListenerWD - after Find Element --->By.cssSelector: .dialog-container>h2
+08:05:20  INFO  manager.ListenerWD - Location of element(455, 290)
+08:05:20  INFO  tests.TestBase - Assert check message 'Logged in success' present
+08:05:20  INFO  manager.ListenerWD - before Find Elements --->By.xpath: //button[text()='Ok']
+08:05:20  INFO  manager.ListenerWD - after Find Elements --->By.xpath: //button[text()='Ok']
+08:05:20  INFO  manager.ListenerWD - list of elements is --->1
+08:05:20  INFO  manager.ListenerWD - before Find Element --->By.xpath: //button[text()='Ok']
+08:05:20  INFO  manager.ListenerWD - after Find Element --->By.xpath: //button[text()='Ok']
+08:05:20  INFO  manager.ListenerWD - Location of element(665, 343)

@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderCar;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -42,21 +43,21 @@ public class AddNewCarTests extends TestBase {
        // Assert.assertEquals(app.getHelperCar().getMessage(),car.getManufacture()+" "+car.getModel()+"added successful");
         logger.info("Assert check massage 'added successful' present");
     }
-    @Test
-    public void addNewCarSuccess() {
-        int i = new Random().nextInt(1000) + 1000;
-
-        Car car = Car.builder()
-                .location("Tel Aviv, Israel")
-                .manufacture("Volvo")
-                .model("100")
-                .year("2021")
-                .fuel("Gas")
-                .seats(4)
-                .carClass("C")
-                .carRegNumber("678-901-" + i)
-                .price(55.0)
-                .build();
+    @Test (dataProvider =  "carSuccess", dataProviderClass = DataProviderCar.class)
+    public void addNewCarSuccess(Car car) {
+//        int i = new Random().nextInt(1000) + 1000;
+//
+//        Car car = Car.builder()
+//                .location("Tel Aviv, Israel")
+//                .manufacture("Volvo")
+//                .model("100")
+//                .year("2021")
+//                .fuel("Gas")
+//                .seats(4)
+//                .carClass("C")
+//                .carRegNumber("678-901-" + i)
+//                .price(55.0)
+//                .build();
 
         logger.info("Test start with test data --->" + car.toString());
         app.getHelperCar().openCarForm();

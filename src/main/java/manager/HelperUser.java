@@ -59,12 +59,7 @@ public class HelperUser extends HelperBase {
         return text;
     }
 
-    public boolean isYallaButtonNotActive() {
-        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
-        WebElement element = wd.findElement(By.cssSelector("button[type='submit']"));
-        boolean result = element.isEnabled();
-        return res && !result;
-    }
+
 
     ///****************** Registration****************
     public void openRegistrationForm() {
